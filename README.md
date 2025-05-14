@@ -1,12 +1,9 @@
-# React + Vite
+# Functionalities
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Users can search for tracks using keywords with dynamic results.
+- Implemented full playback controls including play, pause, next, and previous track actions.
+- Users can seamlessly switch between different music categories such as "For You" and "Top Tracks".
+- Included a seeker bar that allows users to jump to a specific part of the currently playing track.
+- Music playback continues uninterrupted even when the user navigates to a different tab within the app.
+- When a user clicks on any song, the background color dynamically changes to match the cover image of the selected song, enhancing the visual appeal of the app.
+- The application is fully responsive.
